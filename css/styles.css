@@ -1,0 +1,27 @@
+/* цвет текста (nav) #212121 */
+/* цвет основного текста (contacts i p) #757575 */
+/* цвет лого-ховера-активной ссылки (акцент цвет)- #2196F3, #000000, */
+/* цвет заголовков - #212121 */
+/* цвет фона вторичный (наша команда) - #F5F4FA */
+/* цвет адресса в футере - #FFFFFF */
+/* цвет контактов в футере - rgba(255, 255, 255, 0.6) */
+/* цвет фона в футере - #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --logo-second-part-header-text-color: #000000;
+  --bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --email-tel-footer-color: rgba(255, 255, 255, 0.6);
+  --bg-footer-color: #2f303a;
+}
+
+body {
+  background-color: #ffffff;
+  color: #757575;
+}
+/* ul {
+  list-style: none;
+} */
