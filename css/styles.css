@@ -12,16 +12,61 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --logo-second-part-header-text-color: #000000;
-  --bg-color: #ffffff;
+  --primary-bg-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
   --email-tel-footer-color: rgba(255, 255, 255, 0.6);
   --bg-footer-color: #2f303a;
 }
 
 body {
-  background-color: #ffffff;
-  color: #757575;
+  background-color: var(--bg-color);
+  color: var(--primary-text-color);
+  font-family: ;
+  font-size: ;
 }
-/* ul {
+
+/* Стили для index.html */
+
+ul {
   list-style: none;
-} */
+}
+
+/* Лого WebStudio */
+
+.web-logo {
+  color: var(--accent-color);
+}
+
+.studio-logo {
+  color: var(--logo-second-part-header-text-color);
+}
+
+.logo {
+  text-decoration: none;
+}
+
+/* Site-nav */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.contacts-list .contact {
+  color: var(--primary-text-color);
+}
+
+.site-nav .link,
+.contacts-list .contact {
+  text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts-list .contact:hover,
+.contacts-list .contact:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
