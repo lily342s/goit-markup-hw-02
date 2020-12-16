@@ -21,14 +21,17 @@
 body {
   background-color: var(--bg-color);
   color: var(--primary-text-color);
-  font-family: ;
-  font-size: ;
+
+  font-family: Roboto;
 }
 
 /* Стили для index.html */
 
-ul {
+.list {
   list-style: none;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 /* Лого WebStudio */
@@ -43,6 +46,11 @@ ul {
 
 .logo {
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 /* Site-nav */
@@ -51,13 +59,13 @@ ul {
   color: var(--title-text-color);
 }
 
-.contacts-list .contact {
-  color: var(--primary-text-color);
-}
-
 .site-nav .link,
 .contacts-list .contact {
   text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -71,20 +79,138 @@ ul {
   color: var(--accent-color);
 }
 
-/* Стили для portfolio.html */
-
-.work-button .button {
-  background-color: var(--secondary-bg-color);
-  color: var(--title-text-color);
-  font-family: Roboto;
+.contacts-list .contact {
+  color: var(--primary-text-color);
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
 }
 
-.work-button .button:hover,
-.work-button .button:focus {
-  background: var(--accent-color);
+/* Эффективные решения для вашего бизнеса */
+
+.hero {
+  background-color: var(--bg-footer-color);
+}
+
+.hero .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  /* text-align: center; */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
   color: var(--primary-bg-color);
+}
+
+/* Button */
+
+.hero-button {
+  /* font-family: inherit; */
+  /* font-style: normal; */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  /* display: flex;
+  align-items: center;
+  text-align: center; */
+  letter-spacing: 0.06em;
+
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+
+/* Наши преимущества */
+
+.section-features .title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+/* Наша команда */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+/* Footer */
+.studio-logo-footer {
+  color: var(--primary-bg-color);
+}
+
+footer {
+  background-color: var(--bg-footer-color);
+}
+.address-footer,
+.contact-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address-footer {
+  color: var(--primary-bg-color);
+}
+
+.contact-footer {
+  color: var(--email-tel-footer-color);
+}
+
+/* Стили для portfolio.html */
+
+.nav-button .button {
+  background-color: var(--secondary-bg-color);
+  color: var(--title-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.nav-button .button:hover,
+.nav-button .button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+.list .link {
+  text-decoration: none;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  color: var(--title-text-color);
+}
+
+.work-list p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
 }
