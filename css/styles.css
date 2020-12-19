@@ -175,6 +175,8 @@ footer {
 
 .contact-footer {
   color: var(--email-tel-footer-color);
+
+  text-decoration: inherit;
 }
 
 /* Стили для portfolio.html */
