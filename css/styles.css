@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 
   font-family: Roboto;
@@ -36,14 +36,6 @@ body {
 
 /* Лого WebStudio */
 
-.web-logo {
-  color: var(--accent-color);
-}
-
-.studio-logo {
-  color: var(--logo-second-part-header-text-color);
-}
-
 .logo {
   text-decoration: none;
   font-family: Raleway, sans-serif;
@@ -51,6 +43,14 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+
+.web-logo {
+  color: var(--accent-color);
+}
+
+.studio-logo {
+  color: var(--logo-second-part-header-text-color);
 }
 
 /* Site-nav */
@@ -88,6 +88,7 @@ body {
 
 .hero {
   background-color: var(--bg-footer-color);
+  text-align: center;
 }
 
 .hero .hero-title {
@@ -110,8 +111,8 @@ body {
   font-size: 16px;
   line-height: 1.88;
   /* display: flex;
-  align-items: center;
-  text-align: center; */
+  align-items: center; */
+  /* text-align: center; */
   letter-spacing: 0.06em;
 
   color: var(--primary-bg-color);
@@ -181,9 +182,11 @@ footer {
 
 /* Стили для portfolio.html */
 
+/* Наши работы */
 .nav-button .button {
   background-color: var(--secondary-bg-color);
   color: var(--title-text-color);
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
